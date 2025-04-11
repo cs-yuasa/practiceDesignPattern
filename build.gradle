@@ -1,0 +1,28 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+	implementation 'org.tinylog:tinylog-api:2.8.0-M1'
+	implementation 'org.tinylog:tinylog-impl:2.8.0-M1'
+}
+
+sourceSets {
+    main {
+        java {
+            srcDir 'src/main/java'
+        }
+        resources {
+            srcDir 'src/main/resources'
+        }
+    }
+}
+
+application {
+    mainClass = 'jp.co.comster.MainRunner'
+}

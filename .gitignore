@@ -1,0 +1,14 @@
+# === Gradle が生成する一時ファイル・キャッシュ ===
+.gradle/
+
+# === Java クラスファイル ===
+*.class
+
+# === Eclipse プロジェクト設定ファイル ===
+.classpath
+.project
+.settings/
+
+# === ビルド生成物（Eclipse / Gradle 共通）===
+bin/
+build/

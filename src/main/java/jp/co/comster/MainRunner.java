@@ -1,0 +1,37 @@
+package jp.co.comster;
+
+import org.tinylog.Logger;
+
+import jp.co.comster.adapter.AdapterMain;
+import jp.co.comster.builder.BuilderMain;
+import jp.co.comster.factorymethod.FactoryMethodMain;
+import jp.co.comster.iterator.IteratorMain;
+import jp.co.comster.prototype.PrototypeMain;
+import jp.co.comster.singleton.SingletonMain;
+import jp.co.comster.templatemethod.TemplateMethodMain;
+
+/**
+ * 複数のMainクラスを実行する際に使用するクラス
+ */
+public class MainRunner {
+	public static void main(String[] args) {
+		Logger.info("======Iteratorパターン=====");
+		IteratorMain.main(args);
+		Logger.info("======Adapterパターン=====");
+		AdapterMain.main(args);
+		Logger.info("======TemplateMethodパターン=====");
+		TemplateMethodMain.main(args);
+		Logger.info("======FactoryMethodパターン=====");
+		FactoryMethodMain.main(args);
+		Logger.info("======Singletonパターン=====");
+		SingletonMain.main(args);
+		Logger.info("======Prototypeパターン=====");
+		PrototypeMain.main(args);
+		Logger.info("=====Builderパターン(text)=====");
+		BuilderMain.main(new String[] {"text"});
+		Logger.info("=====Builderパターン(html)=====");
+		BuilderMain.main(new String[] {"html"});
+		Logger.info("=====Builderパターン(markdown)=====");
+		BuilderMain.main(new String[] {"markdown"});
+	}
+}
