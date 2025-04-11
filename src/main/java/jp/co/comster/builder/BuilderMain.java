@@ -4,6 +4,7 @@ import org.tinylog.Logger;
 import jp.co.comster.builder.concretebuilder.HTMLBuilder;
 import jp.co.comster.builder.concretebuilder.MarkdownBuilder;
 import jp.co.comster.builder.concretebuilder.TextBuilder;
+import jp.co.comster.builder.framework.Director;
 
 /**
  * Client

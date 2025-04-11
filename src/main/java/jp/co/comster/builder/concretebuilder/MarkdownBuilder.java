@@ -6,7 +6,7 @@ import java.io.Writer;
 
 import org.tinylog.Logger;
 
-import jp.co.comster.builder.Builder;
+import jp.co.comster.builder.framework.Builder;
 
 /**
  * ConcreteBuilder<br>

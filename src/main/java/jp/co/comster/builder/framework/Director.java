@@ -1,4 +1,4 @@
-package jp.co.comster.builder;
+package jp.co.comster.builder.framework;
 
 /**
  * Director
