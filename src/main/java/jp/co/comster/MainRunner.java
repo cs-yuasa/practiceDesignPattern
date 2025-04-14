@@ -4,6 +4,7 @@ import org.tinylog.Logger;
 
 import jp.co.comster.abstractfactory.AbstractFactoryMain;
 import jp.co.comster.adapter.AdapterMain;
+import jp.co.comster.bridge.BridgeMain;
 import jp.co.comster.builder.BuilderMain;
 import jp.co.comster.factorymethod.FactoryMethodMain;
 import jp.co.comster.iterator.IteratorMain;
@@ -38,5 +39,7 @@ public class MainRunner {
 		AbstractFactoryMain.main(new String[] {"list.html", "jp.co.comster.abstractfactory.listfactory.ListFactory"});
 		Logger.info("=====AbstractFactoryパターン(div)=====");
 		AbstractFactoryMain.main(new String[] {"div.html", "jp.co.comster.abstractfactory.divfactory.DivFactory"});
+		Logger.info("=====Bridgeパターン=====");
+		BridgeMain.main(args);
 	}
 }

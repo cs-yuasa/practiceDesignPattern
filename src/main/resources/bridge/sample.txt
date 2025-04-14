@@ -1,0 +1,4 @@
+Hello, this is a sample file.
+It contains multiple lines.
+Each line will be read and appended.
+This is the last line.
