@@ -1,10 +1,10 @@
 plugins {
-    id 'java'
-    id 'application'
+	id 'java'
+	id 'application'
 }
 
 repositories {
-    mavenCentral()
+	mavenCentral()
 }
 
 dependencies {
@@ -13,16 +13,17 @@ dependencies {
 }
 
 sourceSets {
-    main {
-        java {
-            srcDir 'src/main/java'
-        }
-        resources {
-            srcDir 'src/main/resources'
-        }
-    }
+	main {
+		java {
+			srcDir 'src/main/java'
+		}
+		resources {
+			srcDir 'src/main/resources'
+		}
+	}
 }
 
 application {
-    mainClass = 'jp.co.comster.MainRunner'
+	mainClass = 'jp.co.comster.MainRunner'
 }
+

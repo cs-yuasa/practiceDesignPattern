@@ -26,13 +26,13 @@ public class BuilderMain {
 			Director director = new Director(htmlBuilder);
 			director.construct();
 			String filepass = htmlBuilder.getHTMLResult();
-			Logger.info("HTMLファイルが" + filepass + "に保存されました。");
+			Logger.info("HTMLファイルが" + filepass + "に作成されました。");
 		} else if (args[0].equals("markdown")) {
 			MarkdownBuilder markdownBuilder = new MarkdownBuilder();
 			Director director = new Director(markdownBuilder);
 			director.construct();
 			String filepass = markdownBuilder.getMarkdownResult();
-			Logger.info("Markdownファイルが" + filepass + "に保存されました。");
+			Logger.info("Markdownファイルが" + filepass + "に作成されました。");
 		} else {
 			usage();
 			System.exit(0);

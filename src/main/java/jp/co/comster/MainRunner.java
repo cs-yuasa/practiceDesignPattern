@@ -2,6 +2,7 @@ package jp.co.comster;
 
 import org.tinylog.Logger;
 
+import jp.co.comster.abstractfactory.AbstractFactoryMain;
 import jp.co.comster.adapter.AdapterMain;
 import jp.co.comster.builder.BuilderMain;
 import jp.co.comster.factorymethod.FactoryMethodMain;
@@ -33,5 +34,9 @@ public class MainRunner {
 		BuilderMain.main(new String[] {"html"});
 		Logger.info("=====Builderパターン(markdown)=====");
 		BuilderMain.main(new String[] {"markdown"});
+		Logger.info("=====AbstractFactoryパターン(list)=====");
+		AbstractFactoryMain.main(new String[] {"list.html", "jp.co.comster.abstractfactory.listfactory.ListFactory"});
+		Logger.info("=====AbstractFactoryパターン(div)=====");
+		AbstractFactoryMain.main(new String[] {"div.html", "jp.co.comster.abstractfactory.divfactory.DivFactory"});
 	}
 }
