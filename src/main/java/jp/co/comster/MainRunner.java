@@ -14,6 +14,7 @@ import jp.co.comster.prototype.PrototypeMain;
 import jp.co.comster.singleton.SingletonMain;
 import jp.co.comster.strategy.StrategyMain;
 import jp.co.comster.templatemethod.TemplateMethodMain;
+import jp.co.comster.visitor.VisitorMain;
 
 /**
  * 複数のMainクラスを実行する際に使用するクラス
@@ -50,6 +51,8 @@ public class MainRunner {
 		CompositeMain.main(args);
 		Logger.info("=====Decoratorパターン=====");
 		DecoratorMain.main(args);
+		Logger.info("=====Visitorパターン=====");
+		VisitorMain.main(args);
 		
 	}
 }
