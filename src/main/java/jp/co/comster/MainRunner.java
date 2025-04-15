@@ -6,6 +6,7 @@ import jp.co.comster.abstractfactory.AbstractFactoryMain;
 import jp.co.comster.adapter.AdapterMain;
 import jp.co.comster.bridge.BridgeMain;
 import jp.co.comster.builder.BuilderMain;
+import jp.co.comster.composite.CompositeMain;
 import jp.co.comster.factorymethod.FactoryMethodMain;
 import jp.co.comster.iterator.IteratorMain;
 import jp.co.comster.prototype.PrototypeMain;
@@ -44,6 +45,8 @@ public class MainRunner {
 		BridgeMain.main(args);
 		Logger.info("=====Strategyパターン=====");
 		StrategyMain.main(new String[] {"314", "15"});
+		Logger.info("=====Compositeパターン=====");
+		CompositeMain.main(args);
 		
 	}
 }
