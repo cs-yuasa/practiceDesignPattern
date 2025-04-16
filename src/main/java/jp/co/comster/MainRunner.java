@@ -9,6 +9,7 @@ import jp.co.comster.builder.BuilderMain;
 import jp.co.comster.chainofresponsibility.ChainOfResponsibilityMain;
 import jp.co.comster.composite.CompositeMain;
 import jp.co.comster.decorator.DecoratorMain;
+import jp.co.comster.facade.FacadeMain;
 import jp.co.comster.factorymethod.FactoryMethodMain;
 import jp.co.comster.iterator.IteratorMain;
 import jp.co.comster.prototype.PrototypeMain;
@@ -56,6 +57,8 @@ public class MainRunner {
 		VisitorMain.main(args);
 		Logger.info("=====ChainOfResponsibilityパターン=====");
 		ChainOfResponsibilityMain.main(args);
+		Logger.info("=====Facadeパターン=====");
+		FacadeMain.main(args);
 		
 	}
 }
