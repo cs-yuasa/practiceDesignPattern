@@ -6,6 +6,7 @@ import jp.co.comster.abstractfactory.AbstractFactoryMain;
 import jp.co.comster.adapter.AdapterMain;
 import jp.co.comster.bridge.BridgeMain;
 import jp.co.comster.builder.BuilderMain;
+import jp.co.comster.chainofresponsibility.ChainOfResponsibilityMain;
 import jp.co.comster.composite.CompositeMain;
 import jp.co.comster.decorator.DecoratorMain;
 import jp.co.comster.factorymethod.FactoryMethodMain;
@@ -53,6 +54,8 @@ public class MainRunner {
 		DecoratorMain.main(args);
 		Logger.info("=====Visitorパターン=====");
 		VisitorMain.main(args);
+		Logger.info("=====ChainOfResponsibilityパターン=====");
+		ChainOfResponsibilityMain.main(args);
 		
 	}
 }
