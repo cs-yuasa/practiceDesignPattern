@@ -135,7 +135,7 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
 	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		Logger.info(e.toString());
+		Logger.info("Mediatorパターン終了\n" + e.toString());
 		System.exit(0);
 	}
 }
