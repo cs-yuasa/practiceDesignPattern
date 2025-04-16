@@ -12,6 +12,7 @@ import jp.co.comster.decorator.DecoratorMain;
 import jp.co.comster.facade.FacadeMain;
 import jp.co.comster.factorymethod.FactoryMethodMain;
 import jp.co.comster.iterator.IteratorMain;
+import jp.co.comster.mediator.MediatorMain;
 import jp.co.comster.prototype.PrototypeMain;
 import jp.co.comster.singleton.SingletonMain;
 import jp.co.comster.strategy.StrategyMain;
@@ -59,6 +60,8 @@ public class MainRunner {
 		ChainOfResponsibilityMain.main(args);
 		Logger.info("=====Facadeパターン=====");
 		FacadeMain.main(args);
+		Logger.info("=====Mediatorパターン=====");
+		MediatorMain.main(args);
 		
 	}
 }
