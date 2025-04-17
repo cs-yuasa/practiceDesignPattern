@@ -11,6 +11,7 @@ import jp.co.comster.composite.CompositeMain;
 import jp.co.comster.decorator.DecoratorMain;
 import jp.co.comster.facade.FacadeMain;
 import jp.co.comster.factorymethod.FactoryMethodMain;
+import jp.co.comster.flyweight.FlyweightMain;
 import jp.co.comster.iterator.IteratorMain;
 import jp.co.comster.mediator.MediatorMain;
 import jp.co.comster.memento.MementoMain;
@@ -71,6 +72,8 @@ public class MainRunner {
 		MementoMain.main(args);
 		Logger.info("=====Stateパターン=====");
 		StateMain.main(args);
+		Logger.info("=====Flyweightパターン=====");
+		FlyweightMain.main(new String[] {"1212123"});
 		
 	}
 }
