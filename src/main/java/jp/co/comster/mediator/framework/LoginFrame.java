@@ -8,8 +8,6 @@ import java.awt.Label;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import org.tinylog.Logger;
-
 import jp.co.comster.mediator.colleague.ColleagueButton;
 import jp.co.comster.mediator.colleague.ColleagueCheckbox;
 import jp.co.comster.mediator.colleague.ColleagueTextField;
@@ -135,7 +133,6 @@ public class LoginFrame extends Frame implements ActionListener, Mediator {
 	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
-		Logger.info("Mediatorパターン終了\n" + e.toString());
-		System.exit(0);
+		this.dispose();
 	}
 }
