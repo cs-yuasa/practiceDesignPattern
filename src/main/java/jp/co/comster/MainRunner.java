@@ -17,6 +17,7 @@ import jp.co.comster.memento.MementoMain;
 import jp.co.comster.observer.ObserverMain;
 import jp.co.comster.prototype.PrototypeMain;
 import jp.co.comster.singleton.SingletonMain;
+import jp.co.comster.state.StateMain;
 import jp.co.comster.strategy.StrategyMain;
 import jp.co.comster.templatemethod.TemplateMethodMain;
 import jp.co.comster.visitor.VisitorMain;
@@ -68,6 +69,8 @@ public class MainRunner {
 		ObserverMain.main(args);
 		Logger.info("=====Mementoパターン=====");
 		MementoMain.main(args);
+		Logger.info("=====Stateパターン=====");
+		StateMain.main(args);
 		
 	}
 }
