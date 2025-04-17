@@ -13,6 +13,7 @@ import jp.co.comster.facade.FacadeMain;
 import jp.co.comster.factorymethod.FactoryMethodMain;
 import jp.co.comster.iterator.IteratorMain;
 import jp.co.comster.mediator.MediatorMain;
+import jp.co.comster.memento.MementoMain;
 import jp.co.comster.observer.ObserverMain;
 import jp.co.comster.prototype.PrototypeMain;
 import jp.co.comster.singleton.SingletonMain;
@@ -65,6 +66,8 @@ public class MainRunner {
 		MediatorMain.main(args);
 		Logger.info("=====Observerパターン=====");
 		ObserverMain.main(args);
+		Logger.info("=====Mementoパターン=====");
+		MementoMain.main(args);
 		
 	}
 }
