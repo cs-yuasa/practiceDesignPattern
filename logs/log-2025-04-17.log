@@ -1,3 +1,365 @@
-2025-04-17 16:48:39 [INFO] jp.co.comster.state.context.SafeFrame.changeState(): [昼間]から[夜間]へ状態が変化しました。
-2025-04-17 16:48:44 [INFO] jp.co.comster.state.context.SafeFrame.changeState(): [夜間]から[昼間]へ状態が変化しました。
-2025-04-17 16:48:46 [INFO] jp.co.comster.state.StateMain.main(): Stateパターン終了
+2025-04-17 17:04:20 [INFO] jp.co.comster.MainRunner.main(): ======Iteratorパターン=====
+2025-04-17 17:04:20 [INFO] jp.co.comster.iterator.IteratorMain.main(): A
+2025-04-17 17:04:20 [INFO] jp.co.comster.iterator.IteratorMain.main(): B
+2025-04-17 17:04:20 [INFO] jp.co.comster.iterator.IteratorMain.main(): C
+2025-04-17 17:04:20 [INFO] jp.co.comster.iterator.IteratorMain.main(): D
+2025-04-17 17:04:20 [INFO] jp.co.comster.iterator.IteratorMain.main(): A
+2025-04-17 17:04:20 [INFO] jp.co.comster.iterator.IteratorMain.main(): B
+2025-04-17 17:04:20 [INFO] jp.co.comster.iterator.IteratorMain.main(): C
+2025-04-17 17:04:20 [INFO] jp.co.comster.iterator.IteratorMain.main(): D
+2025-04-17 17:04:20 [INFO] jp.co.comster.MainRunner.main(): ======Adapterパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.adapter.AdapterMain.main(): newfile.txt is created.
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): ======TemplateMethodパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.templatemethod.display.CharDisplay.close(): <<HHHHH>>
+2025-04-17 17:04:21 [INFO] jp.co.comster.templatemethod.display.StringDisplay.close(): 
++-------------+
+|Hello, world.|
+|Hello, world.|
+|Hello, world.|
+|Hello, world.|
+|Hello, world.|
++-------------+
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): ======FactoryMethodパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.factorymethod.idcard.IDCard.<init>(): Hiroshi Yuki(100番)のカードを作ります。
+2025-04-17 17:04:21 [INFO] jp.co.comster.factorymethod.idcard.IDCardFactory.registerProduct(): [IDCard:Hiroshi Yuki(100)]を登録しました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.factorymethod.idcard.IDCard.<init>(): Tomura(101番)のカードを作ります。
+2025-04-17 17:04:21 [INFO] jp.co.comster.factorymethod.idcard.IDCardFactory.registerProduct(): [IDCard:Tomura(101)]を登録しました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.factorymethod.idcard.IDCard.<init>(): Hanako Sato(102番)のカードを作ります。
+2025-04-17 17:04:21 [INFO] jp.co.comster.factorymethod.idcard.IDCardFactory.registerProduct(): [IDCard:Hanako Sato(102)]を登録しました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.factorymethod.idcard.IDCard.use(): [IDCard:Hiroshi Yuki(100)]を使います。
+2025-04-17 17:04:21 [INFO] jp.co.comster.factorymethod.idcard.IDCard.use(): [IDCard:Tomura(101)]を使います。
+2025-04-17 17:04:21 [INFO] jp.co.comster.factorymethod.idcard.IDCard.use(): [IDCard:Hanako Sato(102)]を使います。
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): ======Singletonパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): TickMaster Start.
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.instance.TicketMaster.<init>(): TickMasterクラスのインスタンスを生成しました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): 0:1000
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): 1:1001
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): 2:1002
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): 3:1003
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): 4:1004
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): 5:1005
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): 6:1006
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): 7:1007
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): 8:1008
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): 9:1009
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): TickMaster End.
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): Triple Start.
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.instance.Triple.<init>(): name:ALPHAのTripleクラスのインスタンスを生成しました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.instance.Triple.<init>(): name:BETAのTripleクラスのインスタンスを生成しました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.instance.Triple.<init>(): name:GAMMAのTripleクラスのインスタンスを生成しました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): a1 == a2 (ALPHA)
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): b1 == b2 (BETA)
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): c1 == c2 (GAMMA)
+2025-04-17 17:04:21 [INFO] jp.co.comster.singleton.SingletonMain.main(): Triple End.
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): ======Prototypeパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.prototype.concreteprototype.UnderlinePen.use(): 
+Hello, world.
+-------------
+2025-04-17 17:04:21 [INFO] jp.co.comster.prototype.concreteprototype.MessageBox.use(): 
+***************
+*Hello, world.*
+***************
+2025-04-17 17:04:21 [INFO] jp.co.comster.prototype.concreteprototype.MessageBox.use(): 
+///////////////
+/Hello, world./
+///////////////
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====Builderパターン(text)=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.builder.BuilderMain.main(): 
+==============================
+『Greeting』
+
+■一般的なあいさつ
+
+　・How are you?
+　・Hello.
+　・Hi.
+
+■時間帯に応じたあいさつ
+
+　・Good morning.
+　・Good afternoon.
+　・Good evening.
+
+==============================
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====Builderパターン(html)=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.builder.BuilderMain.main(): HTMLファイルがsrc/main/resources/builder/Greeting.htmlに作成されました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====Builderパターン(markdown)=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.builder.BuilderMain.main(): Markdownファイルがsrc/main/resources/builder/Greeting.mdに作成されました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====AbstractFactoryパターン(list)=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.abstractfactory.factory.Page.output(): HTMLファイルがsrc/main/resources/abstractfactory/list.htmlに作成されました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.abstractfactory.factory.Page.output(): HTMLファイルがsrc/main/resources/abstractfactory/yahoo.htmlに作成されました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====AbstractFactoryパターン(div)=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.abstractfactory.factory.Page.output(): HTMLファイルがsrc/main/resources/abstractfactory/div.htmlに作成されました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.abstractfactory.factory.Page.output(): HTMLファイルがsrc/main/resources/abstractfactory/yahoo.htmlに作成されました。
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====Bridgeパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.bridge.concreteimplementor.StringDisplayImpl.rawClose(): 
++-------------+
+|Hello, Japan.|
++-------------+
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.bridge.concreteimplementor.StringDisplayImpl.rawClose(): 
++-------------+
+|Hello, World.|
++-------------+
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.bridge.concreteimplementor.StringDisplayImpl.rawClose(): 
++----------------+
+|Hello, Universe.|
++----------------+
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.bridge.concreteimplementor.StringDisplayImpl.rawClose(): 
++----------------+
+|Hello, Universe.|
+|Hello, Universe.|
+|Hello, Universe.|
+|Hello, Universe.|
+|Hello, Universe.|
++----------------+
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.bridge.concreteimplementor.StringDisplayImpl.rawClose(): 
++----------------+
+|Hello, Universe.|
+|Hello, Universe.|
+|Hello, Universe.|
+|Hello, Universe.|
+|Hello, Universe.|
+|Hello, Universe.|
++----------------+
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.bridge.concreteimplementor.TextFileDisplayImpl.rawClose(): ファイルパス: src/main/resources/bridge/sample.txt
+Hello, this is a sample file.
+It contains multiple lines.
+Each line will be read and appended.
+This is the last line.
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.bridge.concreteimplementor.CharDisplayImpl.rawClose(): <>
+2025-04-17 17:04:21 [INFO] jp.co.comster.bridge.concreteimplementor.CharDisplayImpl.rawClose(): <*>
+2025-04-17 17:04:21 [INFO] jp.co.comster.bridge.concreteimplementor.CharDisplayImpl.rawClose(): <**>
+2025-04-17 17:04:21 [INFO] jp.co.comster.bridge.concreteimplementor.CharDisplayImpl.rawClose(): <***>
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====Strategyパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.strategy.StrategyMain.main(): Total result:
+2025-04-17 17:04:21 [INFO] jp.co.comster.strategy.StrategyMain.main(): [Taro:10000 games, 3167 win, 3490 lose]
+2025-04-17 17:04:21 [INFO] jp.co.comster.strategy.StrategyMain.main(): [Hana:10000 games, 3490 win, 3167 lose]
+2025-04-17 17:04:21 [INFO] jp.co.comster.strategy.StrategyMain.main(): 並べ替え対象：[D, B, C, E, A]
+2025-04-17 17:04:21 [INFO] jp.co.comster.strategy.StrategyMain.main(): 辞書式順序で小さい順[A, B, C, D, E]
+2025-04-17 17:04:21 [INFO] jp.co.comster.strategy.StrategyMain.main(): 辞書式順序で大きい順[E, D, C, B, A]
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====Compositeパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.CompositeMain.main(): Making root entries...
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.Directory.printList(): /root (30000)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.Directory.printList(): /root/bin (30000)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.File.printList(): /root/bin/vi (10000)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.File.printList(): /root/bin/latex (20000)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.Directory.printList(): /root/tmp (0)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.Directory.printList(): /root/usr (0)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.CompositeMain.main(): Making user entries...
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.Directory.printList(): /root (31500)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.Directory.printList(): /root/bin (30000)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.File.printList(): /root/bin/vi (10000)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.File.printList(): /root/bin/latex (20000)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.Directory.printList(): /root/tmp (0)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.Directory.printList(): /root/usr (1500)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.Directory.printList(): /root/usr/yuki (300)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.File.printList(): /root/usr/yuki/diary.html (100)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.File.printList(): /root/usr/yuki/Composite.java (200)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.Directory.printList(): /root/usr/hanako (300)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.File.printList(): /root/usr/hanako/memo.tex (300)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.Directory.printList(): /root/usr/tomura (900)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.File.printList(): /root/usr/tomura/game.doc (400)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.structure.File.printList(): /root/usr/tomura/junk.mail (500)
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.CompositeMain.main(): tmpのフルパス: /root/tmp
+2025-04-17 17:04:21 [INFO] jp.co.comster.composite.CompositeMain.main(): yukiのフルパス: /root/usr/yuki
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====Decoratorパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.decorator.display.Display.show(): 
+Hello, world.
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.decorator.display.Display.show(): 
+#Hello, world.#
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.decorator.display.Display.show(): 
++---------------+
+|#Hello, world.#|
++---------------+
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.decorator.display.Display.show(): 
+-----------------
++---------------+
+|#Hello, world.#|
++---------------+
+-----------------
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.decorator.display.Display.show(): 
+/+-----------------+/
+/|-----------------|/
+/|*+-------------+*|/
+/|*|Hello, world.|*|/
+/|*+-------------+*|/
+/|-----------------|/
+/+-----------------+/
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.decorator.display.Display.show(): 
+Hi!          
+Good morning.
+Good night!  
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.decorator.display.Display.show(): 
++-------------+
++Hi!          +
++Good morning.+
++Good night!  +
++-------------+
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====Visitorパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.visitor.VisitorMain.main(): Making user entries...
+2025-04-17 17:04:21 [INFO] jp.co.comster.visitor.behavior.ListVisitor.printList(): 
+/root (1850)
+/root/usr (1850)
+/root/usr/yuki (300)
+/root/usr/yuki/diary.html (100)
+/root/usr/yuki/Composite.java (200)
+/root/usr/hanako (650)
+/root/usr/hanako/memo.tex (300)
+/root/usr/hanako/index.html (350)
+/root/usr/tomura (900)
+/root/usr/tomura/game.doc (400)
+/root/usr/tomura/junk.mail (500)
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.visitor.VisitorMain.main(): HTML files are:
+diary.html (100)
+index.html (350)
+
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====ChainOfResponsibilityパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 0] is resolved by [Bob].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 33] is resolved by [Bob].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 66] is resolved by [Bob].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 99] is resolved by [Bob].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 132] is resolved by [Diana].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 165] is resolved by [Diana].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 198] is resolved by [Diana].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 231] is resolved by [Elmo].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 264] is resolved by [Fred].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 297] is resolved by [Elmo].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.fail(): [Trouble 330] cannot be resolved.
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 363] is resolved by [Elmo].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.fail(): [Trouble 396] cannot be resolved.
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 429] is resolved by [Charlie].
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.fail(): [Trouble 462] cannot be resolved.
+2025-04-17 17:04:21 [INFO] jp.co.comster.chainofresponsibility.support.Support.done(): [Trouble 495] is resolved by [Elmo].
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====Facadeパターン=====
+2025-04-17 17:04:21 [INFO] jp.co.comster.facade.pagemaker.PageMaker.makeWelcomePage(): welcome.html is created for hyuki@example.com (Hiroshi Yuki)
+2025-04-17 17:04:21 [INFO] jp.co.comster.facade.pagemaker.PageMaker.makeLinkPage(): linkpage.html is created
+2025-04-17 17:04:21 [INFO] jp.co.comster.MainRunner.main(): =====Mediatorパターン=====
+2025-04-17 17:04:28 [INFO] jp.co.comster.mediator.MediatorMain.main(): Mediatorパターン終了
+2025-04-17 17:04:28 [INFO] jp.co.comster.MainRunner.main(): =====Observerパターン=====
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.DigitObserver.update(): DigitObserver:10
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.GraphObserver.update(): GraphObserver:**********
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.BinaryObserver.update(): BinaryObserver:1010(2)
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.DigitObserver.update(): DigitObserver:14
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.GraphObserver.update(): GraphObserver:**************
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.BinaryObserver.update(): BinaryObserver:1110(2)
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.DigitObserver.update(): DigitObserver:18
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.GraphObserver.update(): GraphObserver:******************
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.BinaryObserver.update(): BinaryObserver:10010(2)
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.DigitObserver.update(): DigitObserver:22
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.GraphObserver.update(): GraphObserver:**********************
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.BinaryObserver.update(): BinaryObserver:10110(2)
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.DigitObserver.update(): DigitObserver:26
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.GraphObserver.update(): GraphObserver:**************************
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.BinaryObserver.update(): BinaryObserver:11010(2)
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.DigitObserver.update(): DigitObserver:30
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.GraphObserver.update(): GraphObserver:******************************
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.BinaryObserver.update(): BinaryObserver:11110(2)
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.DigitObserver.update(): DigitObserver:34
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.GraphObserver.update(): GraphObserver:**********************************
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.BinaryObserver.update(): BinaryObserver:100010(2)
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.DigitObserver.update(): DigitObserver:38
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.GraphObserver.update(): GraphObserver:**************************************
+2025-04-17 17:04:28 [INFO] jp.co.comster.observer.observers.BinaryObserver.update(): BinaryObserver:100110(2)
+2025-04-17 17:04:28 [INFO] jp.co.comster.MainRunner.main(): =====Mementoパターン=====
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 前回保存した結果からスタートします。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 1回目
+現状:[money = 2300, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 何も起こりませんでした。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は2300円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 2回目
+現状:[money = 2300, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 何も起こりませんでした。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は2300円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 3回目
+現状:[money = 2300, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 何も起こりませんでした。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は2300円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 4回目
+現状:[money = 2300, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 何も起こりませんでした。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は2300円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 5回目
+現状:[money = 2300, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 何も起こりませんでした。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は2300円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 6回目
+現状:[money = 2300, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 何も起こりませんでした。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は2300円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 7回目
+現状:[money = 2300, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 何も起こりませんでした。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は2300円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 8回目
+現状:[money = 2300, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 所持金が半分になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1150円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 9回目
+現状:[money = 1150, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 何も起こりませんでした。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1150円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 10回目
+現状:[money = 1150, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): フルーツ(ぶどう)をもらいました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1150円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 11回目
+現状:[money = 1150, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん, ぶどう]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 何も起こりませんでした。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1150円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 12回目
+現状:[money = 1150, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん, ぶどう]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 所持金が増えました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1250円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 13回目
+現状:[money = 1250, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん, ぶどう]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 所持金が増えました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1350円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 14回目
+現状:[money = 1350, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん, ぶどう]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 所持金が増えました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1450円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 15回目
+現状:[money = 1450, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん, ぶどう]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 所持金が増えました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1550円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 16回目
+現状:[money = 1550, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん, ぶどう]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): フルーツ(バナナ)をもらいました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1550円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 17回目
+現状:[money = 1550, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん, ぶどう, バナナ]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): フルーツ(バナナ)をもらいました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1550円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 18回目
+現状:[money = 1550, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん, ぶどう, バナナ, バナナ]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 何も起こりませんでした。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1550円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 19回目
+現状:[money = 1550, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん, ぶどう, バナナ, バナナ]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): 所持金が増えました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1650円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 20回目
+現状:[money = 1650, fruits = [おいしいぶどう, おいしいバナナ, おいしいみかん, ぶどう, バナナ, バナナ]]
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.game.Gamer.bet(): フルーツ(おいしいみかん)をもらいました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.memento.MementoMain.main(): 所持金は1650円になりました。
+2025-04-17 17:04:28 [INFO] jp.co.comster.MainRunner.main(): =====Stateパターン=====
+2025-04-17 17:04:28 [INFO] jp.co.comster.state.context.SafeFrame.changeState(): [昼間]から[夜間]へ状態が変化しました。
+2025-04-17 17:04:32 [INFO] jp.co.comster.state.context.SafeFrame.changeState(): [夜間]から[昼間]へ状態が変化しました。
+2025-04-17 17:04:32 [INFO] jp.co.comster.state.context.SafeFrame.changeState(): [昼間]から[非常時]へ状態が変化しました。
+2025-04-17 17:04:36 [INFO] jp.co.comster.state.StateMain.main(): Stateパターン終了
