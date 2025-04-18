@@ -13,6 +13,7 @@ import jp.co.comster.decorator.DecoratorMain;
 import jp.co.comster.facade.FacadeMain;
 import jp.co.comster.factorymethod.FactoryMethodMain;
 import jp.co.comster.flyweight.FlyweightMain;
+import jp.co.comster.interpreter.InterpreterMain;
 import jp.co.comster.iterator.IteratorMain;
 import jp.co.comster.mediator.MediatorMain;
 import jp.co.comster.memento.MementoMain;
@@ -80,6 +81,7 @@ public class MainRunner {
 		ProxyMain.main(args);
 		Logger.info("=====Commandパターン=====");
 		CommandMain.main(args);
-		
+		Logger.info("=====Interpreterパターン=====");
+		InterpreterMain.main(args);
 	}
 }
