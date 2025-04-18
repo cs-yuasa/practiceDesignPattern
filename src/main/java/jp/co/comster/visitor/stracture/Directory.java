@@ -8,7 +8,7 @@ import jp.co.comster.visitor.behavior.SizeVisitor;
 import jp.co.comster.visitor.behavior.Visitor;
 
 /**
- * ConcreteElement<br>
+ * ConcreteElement・ObjectStructure<br>
  * Entryクラスを継承し、Iterable&lt;Entry&gt;インターフェースを実装している
  */
 public class Directory extends Entry implements Iterable<Entry> {
