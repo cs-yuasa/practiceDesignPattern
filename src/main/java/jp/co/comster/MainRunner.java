@@ -17,6 +17,7 @@ import jp.co.comster.mediator.MediatorMain;
 import jp.co.comster.memento.MementoMain;
 import jp.co.comster.observer.ObserverMain;
 import jp.co.comster.prototype.PrototypeMain;
+import jp.co.comster.proxy.ProxyMain;
 import jp.co.comster.singleton.SingletonMain;
 import jp.co.comster.state.StateMain;
 import jp.co.comster.strategy.StrategyMain;
@@ -74,6 +75,8 @@ public class MainRunner {
 		StateMain.main(args);
 		Logger.info("=====Flyweightパターン=====");
 		FlyweightMain.main(new String[] {"1212123"});
+		Logger.info("=====Proxyパターン=====");
+		ProxyMain.main(args);
 		
 	}
 }
